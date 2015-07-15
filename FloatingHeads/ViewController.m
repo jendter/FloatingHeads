@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FloatingMenuViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,23 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)addButtonPressed:(id)sender {
+    //NSLog(@"Pressed.");
+    
+    FloatingMenuViewController *floatingMenu = [[FloatingMenuViewController alloc] initFromView:self.view fromButton:sender];
+    floatingMenu.delegate = self;
+    [self presentViewController:floatingMenu animated:YES completion:nil];
+    
+}
+
+-(void)floatingCancelButtonTapped:(FloatingButton *)button {
+    NSLog(@"Cancel button tapped");
+}
+
+-(void)floatingPersonButtonTapped:(FloatingButton *)button {
+    NSLog(@"Person button tapped");
 }
 
 @end

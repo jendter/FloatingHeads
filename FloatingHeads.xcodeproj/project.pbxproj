@@ -14,6 +14,9 @@
 		27F0E1B11B56C6CC00F3B579 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F0E1B01B56C6CC00F3B579 /* Images.xcassets */; };
 		27F0E1B41B56C6CC00F3B579 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F0E1B21B56C6CC00F3B579 /* LaunchScreen.xib */; };
 		27F0E1C01B56C6CD00F3B579 /* FloatingHeadsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0E1BF1B56C6CD00F3B579 /* FloatingHeadsTests.m */; };
+		27F0E1CB1B56C9BB00F3B579 /* FloatingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0E1CA1B56C9BB00F3B579 /* FloatingButton.m */; };
+		27F0E1CE1B56C9E300F3B579 /* UIColor+JEColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0E1CD1B56C9E300F3B579 /* UIColor+JEColor.m */; };
+		27F0E1D11B56D1B800F3B579 /* FloatingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0E1D01B56D1B800F3B579 /* FloatingMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,13 @@
 		27F0E1B91B56C6CD00F3B579 /* FloatingHeadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingHeadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F0E1BE1B56C6CD00F3B579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27F0E1BF1B56C6CD00F3B579 /* FloatingHeadsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingHeadsTests.m; sourceTree = "<group>"; };
+		27F0E1C91B56C9BB00F3B579 /* FloatingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingButton.h; sourceTree = "<group>"; };
+		27F0E1CA1B56C9BB00F3B579 /* FloatingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingButton.m; sourceTree = "<group>"; };
+		27F0E1CC1B56C9E300F3B579 /* UIColor+JEColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JEColor.h"; sourceTree = "<group>"; };
+		27F0E1CD1B56C9E300F3B579 /* UIColor+JEColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JEColor.m"; sourceTree = "<group>"; };
+		27F0E1CF1B56D1B800F3B579 /* FloatingMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingMenuViewController.h; sourceTree = "<group>"; };
+		27F0E1D01B56D1B800F3B579 /* FloatingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingMenuViewController.m; sourceTree = "<group>"; };
+		27F0E1D21B5703A800F3B579 /* FloatingMenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingMenuDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,13 @@
 				27F0E1A81B56C6CC00F3B579 /* AppDelegate.m */,
 				27F0E1AA1B56C6CC00F3B579 /* ViewController.h */,
 				27F0E1AB1B56C6CC00F3B579 /* ViewController.m */,
+				27F0E1CF1B56D1B800F3B579 /* FloatingMenuViewController.h */,
+				27F0E1D01B56D1B800F3B579 /* FloatingMenuViewController.m */,
+				27F0E1C91B56C9BB00F3B579 /* FloatingButton.h */,
+				27F0E1CA1B56C9BB00F3B579 /* FloatingButton.m */,
+				27F0E1D21B5703A800F3B579 /* FloatingMenuDelegate.h */,
+				27F0E1CC1B56C9E300F3B579 /* UIColor+JEColor.h */,
+				27F0E1CD1B56C9E300F3B579 /* UIColor+JEColor.m */,
 				27F0E1AD1B56C6CC00F3B579 /* Main.storyboard */,
 				27F0E1B01B56C6CC00F3B579 /* Images.xcassets */,
 				27F0E1B21B56C6CC00F3B579 /* LaunchScreen.xib */,
@@ -219,9 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F0E1CE1B56C9E300F3B579 /* UIColor+JEColor.m in Sources */,
 				27F0E1AC1B56C6CC00F3B579 /* ViewController.m in Sources */,
 				27F0E1A91B56C6CC00F3B579 /* AppDelegate.m in Sources */,
 				27F0E1A61B56C6CC00F3B579 /* main.m in Sources */,
+				27F0E1CB1B56C9BB00F3B579 /* FloatingButton.m in Sources */,
+				27F0E1D11B56D1B800F3B579 /* FloatingMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

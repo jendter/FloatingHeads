@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FloatingMenuDelegate.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <FloatingMenuDelegate>
 
 
 @end
